@@ -29,7 +29,21 @@ function getKodamByName(name) {
         "Chindo islam",
         "Gelas Plastik",
         "Sapi Tantrum",
-        "Orang-orangan sampah+",
+        "Orang-orangan sampah",
+        "Orang-orangan sawah",
+        "Kereta thomas",
+        "Planet Namek",
+        "Thanos ngising",
+        "Edgar rawr",
+        "Cicak Skizo",
+        "Johan",
+        "Kirik Telentang",
+        "Bakwan jagung",
+        "Tempe mendoan",
+        "Bakwan kawi",
+        "Gajah duduk",
+        "Bagas Drible",
+        "Zharif push up",
     ];
 
     // Menghasilkan indeks acak dari 0 hingga panjang daftar kodam - 1

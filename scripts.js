@@ -36,7 +36,7 @@ function getKodamByName(name) {
         "Thanos ngising",
         "Edgar rawr",
         "Cicak Skizo",
-        "Johan",
+        "Johan Liebert",
         "Kirik Telentang",
         "Bakwan jagung",
         "Tempe mendoan",
@@ -44,6 +44,21 @@ function getKodamByName(name) {
         "Gajah duduk",
         "Bagas Drible",
         "Zharif push up",
+        "Coco Melon",
+        "Gerry shoulder",
+        "Tom and Jerry",
+        "Timothy Crypto",
+        "Mr. Beast",
+        "Alok Reaper",
+        "Rice Cooker",
+        "Ular gondrong",
+        "Nugget gosong",
+        "Orang normal",
+        "Es krim",
+        "Vario Kopling",
+        "Supra geter",
+        "Tobrut jahat",
+        "Tobrut Baik"
     ];
 
     // Menghasilkan indeks acak dari 0 hingga panjang daftar kodam - 1

@@ -72,6 +72,11 @@ button:hover {
     color: #e0e0e0;
 }
 
+#loading {
+    font-size: 1.2em;
+    color: #bb86fc;
+}
+
 footer {
     margin-top: 20px;
     text-align: center;

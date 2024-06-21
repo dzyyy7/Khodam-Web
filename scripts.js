@@ -1,8 +1,22 @@
 document.getElementById('kodamForm').addEventListener('submit', function(event) {
     event.preventDefault();
     const name = document.getElementById('name').value.trim();
-    const kodam = getKodamByName(name);
-    document.getElementById('result').innerText = `Kodam untuk nama ${name} adalah: ${kodam}`;
+    const loadingElement = document.getElementById('loading');
+    const resultElement = document.getElementById('result');
+
+    // Tampilkan elemen loading dan sembunyikan hasil
+    loadingElement.style.display = 'block';
+    resultElement.style.display = 'none';
+
+    // Simulasikan loading dengan setTimeout
+    setTimeout(function() {
+        const kodam = getKodamByName(name);
+
+        // Sembunyikan elemen loading dan tampilkan hasil
+        loadingElement.style.display = 'none';
+        resultElement.style.display = 'block';
+        resultElement.innerText = `Kodam untuk nama ${name} adalah: ${kodam}`;
+    }, 3000); // Waktu tunggu 3 detik
 });
 
 function getKodamByName(name) {

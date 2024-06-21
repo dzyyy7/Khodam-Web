@@ -61,6 +61,12 @@ function getKodamByName(name) {
         "Tobrut Baik"
     ];
 
+    // Mengacak daftar kodam menggunakan algoritma Fisher-Yates
+    for (let i = kodams.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [kodams[i], kodams[j]] = [kodams[j], kodams[i]];
+    }
+
     // Menghasilkan indeks acak dari 0 hingga panjang daftar kodam - 1
     const randomIndex = Math.floor(Math.random() * kodams.length);
 
